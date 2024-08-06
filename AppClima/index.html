@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud App</title>
+
+    <!--Style Project-->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/91f7d52c40.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div id="blur">
+
+    <div id="content">
+
+        <h2 style="margin-top: 10px;">Confira o Clima</h2>
+        
+        <section class="form">
+
+            <input value="none" type="text" placeholder="Digite o nome da cidade:" name="" id="input-idCity">
+            <button id="search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </button>
+
+        </section>
+
+        <hr>
+
+        <section id="clima">
+
+            <h2>
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="idCity">Fortaleza</span>
+            </h2>
+
+
+            <p id="temperatura">
+                <span></span>
+                &deg;C
+            </p>
+
+            <section id="description-container">
+                <p id="description"></p>
+                <img id="weather-icon" src="" alt="Condições atuais">
+            </section>
+
+            <section class="detalhes">
+                <p id="umidade">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span></span>
+                </p>
+                
+                <span>|</span>
+
+                <p id="vento">
+                    <i class="fa-solid fa-wind"></i>
+                    <span></span>
+                </p>
+            </section>
+
+        </section>
+
+
+    </div>
+
+</div>
+
+<script src="script/script.js" defer></script>
+</body>
+</html>
